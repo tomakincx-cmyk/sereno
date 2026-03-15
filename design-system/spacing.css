@@ -1,0 +1,17 @@
+.spacing {
+  /* Grid utilities */
+  --grid-columns: 12;
+  --grid-gutter: 16px;
+
+  /* Margin utilities */
+  margin: calc(var(--grid-gutter) / 2);
+
+  /* Padding utilities */
+  padding: var(--grid-gutter);
+
+  /* Layout utilities */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
